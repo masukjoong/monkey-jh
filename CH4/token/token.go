@@ -11,8 +11,8 @@ const (
 	EOF     = "EOF"
 
 	// 식별자 + 리터럴
-	IDENT = "IDENT"
-	INT   = "INT"
+	IDENT  = "IDENT"
+	INT    = "INT"
 	STRING = "STRING"
 
 	// 연산자
@@ -30,6 +30,7 @@ const (
 	// 구분자
 	COMMA     = ","
 	SEMICOLON = ";"
+	COLON     = ":"
 
 	LPAREN = "("
 	RPAREN = ")"
